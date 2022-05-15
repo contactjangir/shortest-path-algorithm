@@ -1,0 +1,25 @@
+rjangir@rjangir-linux:/local/mnt/workspace/rjangir/ADSA$ ./bellman
+Using Bellman-Ford algorithm to find single source shortest paths for the following Graph:
+         -1
+     (1)---->(4)
+     / |    /  \
+   6/  |-2 /1  3\
+   / 5 |  /      \
+(0)--->(2)        (6)
+   \   |          /
+   5\  |-2      3/
+     \ |   -1   /
+      (3)------>(5)
+
+
+Source Vertex is : 0
+
+Vertex   Distance from Source
+0 ---> 0                 0
+0 ---> 1                 1
+0 ---> 2                 3
+0 ---> 3                 5
+0 ---> 4                 0
+0 ---> 5                 4
+0 ---> 6                 3
+rjangir@rjangir-linux:/local/mnt/workspace/rjangir/ADSA$

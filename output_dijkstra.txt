@@ -1,0 +1,27 @@
+rjangir@rjangir-linux:/local/mnt/workspace/rjangir/ADSA$ ./dijkstra
+
+Using Dijkstra's algorithm to find single source shortest paths for the following Graph:
+           7          8
+     (1)------>(4)------->(5)
+    / | \     / | \       |  \
+  5/  | 3\  2/  |  \      |   \4
+  /  2|   \ /   |5  \7    |3   \
+(0)   |   (3)   |    \    |     (8)
+   \  |      \  |     \   |
+   2\ |      6\ |      \  |
+     \|   9    \|  2    \ |
+    (2)------->(6)------>(7)
+
+Source vertex is : 0
+
+Vertex          Distance from Source
+0 --->0                  0
+0 --->1                  4
+0 --->2                  2
+0 --->3                  7
+0 --->4                  9
+0 --->5                  16
+0 --->6                  11
+0 --->7                  13
+0 --->8                  20
+rjangir@rjangir-linux:/local/mnt/workspace/rjangir/ADSA$
